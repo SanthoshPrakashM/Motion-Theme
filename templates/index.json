@@ -11,7 +11,8 @@
             "subheading": "Bring your brand to life",
             "link": "",
             "link_text": "Optional button",
-            "text_align": "vertical-bottom horizontal-left",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/fresh-food-home.webp",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -25,6 +26,7 @@
             "link": "",
             "link_text": "Optional button",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/41.webp",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -37,8 +39,8 @@
       "settings": {
         "section_height": "650px",
         "mobile_height": "auto",
-        "parallax": true,
-        "style": "arrows",
+        "parallax": false,
+        "style": "minimal",
         "autoplay": true,
         "autoplay_speed": 5
       }
