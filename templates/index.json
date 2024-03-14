@@ -30,11 +30,26 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "image_4XLy64": {
+          "type": "image",
+          "settings": {
+            "title": "Two line\nslide title.",
+            "title_size": 80,
+            "subheading": "And an optional subheading",
+            "link": "",
+            "link_text": "Optional button",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/ChicknSandwich2.webp",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "image_YVepTQ",
-        "image_VHApBh"
+        "image_VHApBh",
+        "image_4XLy64"
       ],
       "settings": {
         "section_height": "650px",
