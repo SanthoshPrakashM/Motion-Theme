@@ -3,6 +3,7 @@
     "color_borders": "#e8e8e1",
     "color_button": "#111111",
     "color_button_text": "#ffffff",
+    "color_header": "#ff8228",
     "color_footer": "#111111",
     "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
@@ -26,6 +27,7 @@
     "type_base_size": 17,
     "type_base_line_height": 1.6,
     "type_base_accent_transform": true,
+    "type_navigation_size": 14,
     "icon_weight": "3px",
     "icon_linecaps": "miter",
     "animate_page_transitions": true,
@@ -37,7 +39,9 @@
     "animate_images_style": "zoom-fade",
     "animate_buttons": true,
     "animate_underlines": true,
+    "quick_shop_enable": false,
     "cart_type": "drawer",
+    "cart_icon": "cart",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -61,24 +65,35 @@
       "header": {
         "type": "header",
         "settings": {
-          "main_menu_link_list": "main-menu",
-          "sticky_index": true,
+          "logo": "shopify:\/\/shop_images\/light-logo_bfc2e4d5-b0b3-4ac8-8ff0-3918e2952b38.webp",
+          "desktop_logo_width": 260,
+          "mobile_logo_width": 140,
+          "main_menu_link_list": "chickn-cone",
+          "main_menu_alignment": "left",
+          "header_sticky": true,
+          "sticky_index": false,
           "sticky_collection": false,
-          "show_announcement": true
+          "show_announcement": false,
+          "announcement_text": "Free shipping and returns",
+          "announcement_link": "",
+          "announcement_closable": false
         }
       },
       "footer": {
         "type": "footer",
         "blocks": {
-          "1494292481350": {
-            "type": "logo_social",
+          "1494301487049": {
+            "type": "menu",
             "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
               "container_width": 20
             }
           },
           "1494292485313": {
             "type": "menu",
             "settings": {
+              "show_footer_title": true,
               "menu": "main-menu",
               "container_width": 20
             }
@@ -86,13 +101,16 @@
           "1494292487693": {
             "type": "newsletter",
             "settings": {
+              "show_footer_title": true,
+              "title": "Sign up and save",
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "container_width": 33
             }
           },
-          "1494301487049": {
-            "type": "menu",
+          "1494292481350": {
+            "type": "logo_social",
             "settings": {
-              "menu": "footer",
+              "desktop_logo_height": 50,
               "container_width": 20
             }
           }
@@ -104,9 +122,82 @@
           "1494292481350"
         ],
         "settings": {
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_payment_icons": false,
+          "colorize_payment_icons": false,
+          "show_copyright": false,
+          "copyright_text": ""
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "blocks": {
+          "footer-promotions-0": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image_width": 650,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          },
+          "footer-promotions-1": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image_width": 650,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          },
+          "footer-promotions-2": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image_width": 650,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer-promotions-0",
+          "footer-promotions-1",
+          "footer-promotions-2"
+        ],
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide",
+          "align_text": "left"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Classic": {
