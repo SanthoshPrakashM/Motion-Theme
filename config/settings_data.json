@@ -84,6 +84,7 @@
         "blocks": {
           "1494301487049": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "show_footer_title": true,
               "menu": "footer",
@@ -92,6 +93,7 @@
           },
           "1494292485313": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "show_footer_title": true,
               "menu": "main-menu",
@@ -100,6 +102,7 @@
           },
           "1494292487693": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "show_footer_title": true,
               "title": "Sign up and save",
@@ -109,6 +112,7 @@
           },
           "1494292481350": {
             "type": "logo_social",
+            "disabled": true,
             "settings": {
               "desktop_logo_height": 50,
               "container_width": 20
@@ -174,7 +178,7 @@
           "footer-promotions-2"
         ],
         "settings": {
-          "hide_homepage": false,
+          "hide_homepage": true,
           "image_size": "wide",
           "align_text": "left"
         }
